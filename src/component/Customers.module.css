@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@700&family=Poppins&display=swap');
+
+.customers{
+    margin: auto;
+    margin-bottom: 32px;
+    width: 100vw;
+
+    padding: 16px;
+
+    display: flex;
+    flex-flow: column nowrap;
+
+    background-color: #11102F;
+}
+
+.customers h1 {
+    margin: 16px;
+    font-family: 'K2D';
+    color: white;
+}
+
+.customerContainer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer{
+    width: 30%;
+    height: 100%;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #2C2B3F;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer p{
+    font-family: 'Poppins';
+    color: white;
+}
+
+.customerInfo{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.customerImage{
+    border-radius: 50px;
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+}
+
+.customerName{
+    margin-left: 8px;
+    font-family: 'Poppins';
+    color: white;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+
+}
+
+.customerName h3{
+    margin: 0;
+}
+
+.customerName h4{
+    margin: 0;
+    font-size: 12px;
+    color: rgb(188, 188, 188);
+}

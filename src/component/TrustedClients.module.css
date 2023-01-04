@@ -1,0 +1,37 @@
+.tcContainer{
+    width: 100vw;
+
+    margin: auto;
+    margin-bottom: 32px;
+
+    background-color: rgb(219, 219, 219);
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 0 20px 0;
+}
+
+.tcContainer h3{
+    font-family: 'K2D', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(130, 130, 130);
+}
+
+.clients{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: space-between;
+
+}
+
+.client{
+    font-family: 'Pop', sans-serif;
+    color: rgb(130, 130, 130);
+    font-size: 1.3rem;
+
+    margin: 8px 16px;
+}
