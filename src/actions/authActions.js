@@ -5,7 +5,6 @@ import { SERVER_URL } from "./types";
 import { notify } from "component/Notify";
 import { GET_ERRORS, SET_CURRENT_USER } from "./types";
 
-
 // Register User
 export const registerUser = (userData, router) => {
   axios
@@ -36,6 +35,10 @@ export const loginUser = (userData, router) => {
       // Save to localStorage
       const { token } = res.data;
       localStorage.setItem('jwtToken', token);
+
+      // to be removed
+      localStorage.setItem('username', userData.email);
+
       // Set token to auth header
       setAuthToken(token);
       // Decode token to get user data

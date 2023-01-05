@@ -11,6 +11,7 @@ import { GET_PROFILE } from "actions/types";
 
 const SidebarContainer = ({ selected, show }) => {
     const router = useRouter();
+
     return (
         <MainOut show={show}>
             <MainTop>
@@ -25,8 +26,8 @@ const SidebarContainer = ({ selected, show }) => {
                     <ManPart>
                         <ManImg src='/img/user.png' alt='' />
                         <ManRight>
-                            <ManTop>Alex White</ManTop>
-                            <ManBottom>NEEDS FIXING</ManBottom>
+                            <ManTop>{localStorage.getItem('username')}</ManTop>
+                            <ManBottom>Pro Member</ManBottom>
                         </ManRight>
                     </ManPart>
                 </ManOut>
