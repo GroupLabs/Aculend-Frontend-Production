@@ -1,5 +1,5 @@
 export const GET_ERRORS = "GET_ERRORS";
-export const SERVER_URL = "http://127.0.0.1:5000";
+export const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL;
 export const CLEAR_ERRORS = "CLEAR_ERRORS";
 export const SET_CURRENT_USER = "SET_CURRENT_USER";
 export const GET_PROFILE = "GET_PROFILE";
