@@ -30,9 +30,9 @@ export default function Hero() {
                             alt=""
                             // width={300}
                             // height={300}
-                            fill
+                            // fill
                             // blurDataURL="data:..." automatically provided
-                            placeholder="blur" // Optional blur-up while loading
+                            // placeholder="blur" // Optional blur-up while loading
                         />
         </div>
       </div>
@@ -43,9 +43,9 @@ export default function Hero() {
                             alt=""
                             // width={300}
                             // height={300}
-                            fill
+                            // fill
                             // blurDataURL="data:..." automatically provided
-                            placeholder="blur" // Optional blur-up while loading
+                            // placeholder="blur" // Optional blur-up while loading
                         />
         </div>
         <div className={styles.hTextContainer}>
@@ -88,9 +88,9 @@ export default function Hero() {
                             alt=""
                             // width={300}
                             // height={300}
-                            fill
+                            // fill
                             // blurDataURL="data:..." automatically provided
-                            placeholder="blur" // Optional blur-up while loading
+                            // placeholder="blur" // Optional blur-up while loading
                         />
         </div>
       </div>

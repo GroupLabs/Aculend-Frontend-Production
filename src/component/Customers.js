@@ -43,9 +43,9 @@ export default function Asset() {
                                 alt=""
                                 // width={300}
                                 // height={300}
-                                fill
+                                // fill
                                 // blurDataURL="data:..." automatically provided
-                                placeholder="blur" // Optional blur-up while loading
+                                // placeholder="blur" // Optional blur-up while loading
                             />
                     </div>
                     <div className={styles.customerName}>
@@ -65,9 +65,9 @@ export default function Asset() {
                                 alt=""
                                 // width={300}
                                 // height={300}
-                                fill
+                                // fill
                                 // blurDataURL="data:..." automatically provided
-                                placeholder="blur" // Optional blur-up while loading
+                                // placeholder="blur" // Optional blur-up while loading
                             />
                     </div>
                     <div className={styles.customerName}>
