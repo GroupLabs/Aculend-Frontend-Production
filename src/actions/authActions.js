@@ -34,10 +34,12 @@ export const loginUser = (userData, router) => {
       }
       // Save to localStorage
       const { token } = res.data;
-      localStorage.setItem('jwtToken', token);
 
-      // to be removed
-      localStorage.setItem('username', userData.email);
+      if (typeof window !== 'undefined') {
+        // Perform localStorage action
+        localStorage.setItem('jwtToken', token);
+      }
+      
 
       // Set token to auth header
       setAuthToken(token);
@@ -62,7 +64,10 @@ export const setCurrentUser = (decoded) => {
 // Log user out
 export const logoutUser = () => (dispatch) => {
   // Remove token from localStorage
-  localStorage.removeItem("jwtToken");
+
+  if (typeof window !== 'undefined') {
+    localStorage.removeItem("jwtToken");
+  }
   // Remove auth header for future requests
   setAuthToken(false);
   // Set the current user to {} which is will also set isAuthenticated to false

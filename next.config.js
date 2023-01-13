@@ -8,4 +8,7 @@ module.exports = {
     // !! WARN !!
     ignoreBuildErrors: true,
   },
+  images: {
+    domains: ['en.wikipedia.org', 'www.grouplabs.ca'],
+  },
 }

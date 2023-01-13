@@ -1,8 +1,8 @@
+// @ts-nocheck
 import * as React from "react"
 import styles from "./Hero.module.css"
 import Image from "next/image"
-import contract from '../../public/Hero.jpg'
-
+// import contract from '../../public/Hero.jpg'
 
 export default function Hero() {
   return (
@@ -26,11 +26,11 @@ export default function Hero() {
         </div>
         <div className={styles.imageStyle}>
           <Image
-                            src={contract}
+                            src="https://www.grouplabs.ca/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FContract.d15ef3e8.png&w=640&q=75"
                             alt=""
-                            // width={300}
-                            // height={300}
-                            // fill
+                            width={300}
+                            height={300}
+                            // layout="fill"
                             // blurDataURL="data:..." automatically provided
                             // placeholder="blur" // Optional blur-up while loading
                         />
@@ -39,11 +39,11 @@ export default function Hero() {
       <div className={styles.hContainer}>
       <div className={styles.imageStyle}>
           <Image
-                            src={contract}
+                            src="https://www.grouplabs.ca/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FContract.d15ef3e8.png&w=640&q=75"
                             alt=""
-                            // width={300}
-                            // height={300}
-                            // fill
+                            width={300}
+                            height={300}
+                            // layout="fill"
                             // blurDataURL="data:..." automatically provided
                             // placeholder="blur" // Optional blur-up while loading
                         />
@@ -84,11 +84,11 @@ export default function Hero() {
         </div>
         <div className={styles.imageStyle}>
           <Image
-                            src={contract}
+                            src="https://www.grouplabs.ca/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FContract.d15ef3e8.png&w=640&q=75"
                             alt=""
-                            // width={300}
-                            // height={300}
-                            // fill
+                            width={300}
+                            height={300}
+                            // layout="fill"
                             // blurDataURL="data:..." automatically provided
                             // placeholder="blur" // Optional blur-up while loading
                         />
