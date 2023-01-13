@@ -116,6 +116,7 @@ const DashboardContainer = () => {
   const isTabletMode = useMediaQuery('(max-width: 490px)');
 
   }
+
   if (typeof window !== 'undefined') {
     
   return (
@@ -150,24 +151,20 @@ const DashboardContainer = () => {
               </Btns>
             </TiitleRight>
           </TitlePart>
-          <ChatPart>
+          {/* <ChatPart>
             <ChartCircle>
                 <ChartCircleTitle>
                     <CLeft>Approval Rate</CLeft>
-                    {/* <CRight>Show: <span>This month</span></CRight> */}
                 </ChartCircleTitle>
-                {/* @ts-ignore */}
                 <Chart options={labels} series={donutSeries} type="donut" width={isTabletMode ? "300px" : "400px"} />
             </ChartCircle>
             <ChartLine>
                 <ChartCircleTitle>
                     <CLeft>Number of Applications</CLeft>
-                    {/* <CRight>Show: <span>Monthly</span></CRight> */}
                 </ChartCircleTitle>
-                {/* @ts-ignore */}
                 <Chart options={options} series={lineseries} type="line" width={isTabletMode ? "300px" : "400px"} />
             </ChartLine>
-        </ChatPart>
+        </ChatPart> */}
 
           <MarkPart>
             <MarkItem>
