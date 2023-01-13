@@ -70,6 +70,8 @@ const DashboardContainer = () => {
       .catch((err) => console.log(err));
   }, []);
 
+  if (typeof window !== 'undefined') {
+
   // --------------------------Circle Chart------------------------------
   const [options, setoptions] = useState(
     {
@@ -113,6 +115,7 @@ const DashboardContainer = () => {
   }]);
   const isTabletMode = useMediaQuery('(max-width: 490px)');
 
+  }
   if (typeof window !== 'undefined') {
     
   return (
