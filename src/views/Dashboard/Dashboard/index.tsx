@@ -113,7 +113,8 @@ const DashboardContainer = () => {
   }]);
   const isTabletMode = useMediaQuery('(max-width: 490px)');
 
-
+  if (typeof window !== 'undefined') {
+    
   return (
     <MainOut>
       <SideBar selected={1} show={sidebarshow} />
@@ -249,5 +250,9 @@ const DashboardContainer = () => {
       </MainRightOut>
     </MainOut>
   );
+  }
+
+  return <div />;
+
 };
 export default DashboardContainer;

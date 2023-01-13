@@ -11,12 +11,17 @@ import AppLayout from "layout/AppLayout";
 // ------------------------------------------------
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return (
-    <AppLayout>
-      <ToastContainer />
-      <Component {...pageProps} />
-    </AppLayout>
-  );
+  if (typeof window !== 'undefined') {
+    return (
+      <AppLayout>
+        <ToastContainer />
+        <Component {...pageProps} />
+      </AppLayout>
+    );
+  }
+
+  return null;
+
 }
 
 export default MyApp;

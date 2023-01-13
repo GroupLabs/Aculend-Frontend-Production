@@ -6,7 +6,10 @@ const Dashboard: NextPage = () => {
   return (
     <>
       <SEO title="Underwiterfy" description="this is Dashboard page" />
-      <DashboardView />
+      <div>
+        Dashboard
+      </div>
+      {/* <DashboardView /> */}
     </>
   );
 };
