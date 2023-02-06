@@ -26,10 +26,10 @@ export default function Hero() {
         </div>
         <div className={styles.imageStyle}>
           <Image
-                            src="https://www.grouplabs.ca/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FContract.d15ef3e8.png&w=640&q=75"
+                            src="https://ucarecdn.com/fc4d0681-af13-44dc-8c3f-52331bf82ffb/pexelsfauxels3184287.jpg"
                             alt=""
-                            width={300}
-                            height={300}
+                            width={400}
+                            height={600}
                             // layout="fill"
                             // blurDataURL="data:..." automatically provided
                             // placeholder="blur" // Optional blur-up while loading
@@ -39,10 +39,10 @@ export default function Hero() {
       <div className={styles.hContainer}>
       <div className={styles.imageStyle}>
           <Image
-                            src="https://www.grouplabs.ca/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FContract.d15ef3e8.png&w=640&q=75"
+                            src="https://ucarecdn.com/58236ddd-ee57-4236-ae38-1f9bb4819d39/pexelsfauxels3184423.jpg"
                             alt=""
-                            width={300}
-                            height={300}
+                            width={400}
+                            height={600}
                             // layout="fill"
                             // blurDataURL="data:..." automatically provided
                             // placeholder="blur" // Optional blur-up while loading
@@ -84,11 +84,12 @@ export default function Hero() {
         </div>
         <div className={styles.imageStyle}>
           <Image
-                            src="https://www.grouplabs.ca/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FContract.d15ef3e8.png&w=640&q=75"
+                            src="https://ucarecdn.com/3137526d-e017-4716-85a9-645fae7034d1/pexelsfauxels3183146.jpg"
                             alt=""
-                            width={300}
-                            height={300}
-                            // layout="fill"
+                            // width={600}
+                            // height={400}
+                            layout="fill"
+                            objectFit="cover"
                             // blurDataURL="data:..." automatically provided
                             // placeholder="blur" // Optional blur-up while loading
                         />

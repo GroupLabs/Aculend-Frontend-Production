@@ -10,15 +10,16 @@ export default function DontWorry() {
     <div>
       <div className={styles.hContainer}>
       <div className={styles.imageStyle}>
-          <Image
-                            src="https://www.grouplabs.ca/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FContract.d15ef3e8.png&w=640&q=75"
-                            alt=""
-                            // width={300}
-                            // height={300}
-                            layout="fill"
-                            // blurDataURL="data:..." automatically provided
-                            // placeholder="blur" // Optional blur-up while loading
-                        />
+        <Image
+                              src="https://ucarecdn.com/aed53be8-342e-4873-81e9-58a289a74be7/pexelsfauxels3184668.jpg"
+                              alt=""
+                              // width={600}
+                              // height={400}
+                              layout="fill"
+                              objectFit="cover"
+                              // blurDataURL="data:..." automatically provided
+                              // placeholder="blur" // Optional blur-up while loading
+                          />
         </div>
         <div className={styles.hTextContainer}>
           <div className={styles.hText}>

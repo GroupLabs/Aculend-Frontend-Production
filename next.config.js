@@ -9,6 +9,6 @@ module.exports = {
     ignoreBuildErrors: true,
   },
   images: {
-    domains: ['en.wikipedia.org', 'www.grouplabs.ca'],
+    domains: ['en.wikipedia.org', 'www.grouplabs.ca', 'ucarecdn.com'],
   },
 }
