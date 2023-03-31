@@ -39,6 +39,24 @@
     align-items: center;
 }
 
+@media (max-width: 800px) {
+    .customerContainer{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .customer{
+        width: 80%;
+        height: 100%;
+        margin: 16px;
+        padding: 16px;
+        border-radius: 8px;
+    }
+    
+}
+
 .customer p{
     font-family: 'Poppins';
     color: white;

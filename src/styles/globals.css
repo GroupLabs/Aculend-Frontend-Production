@@ -239,3 +239,8 @@ a {
     right: 37% !important;
   }
 }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
